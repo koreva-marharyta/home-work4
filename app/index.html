@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="ukr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home work 4</title>
 </head>
+
 <body>
     <a href="../pages/index_eng.html">eng ver</a>
     <header>
         <nav>
             <ul style="padding-left: 0; text-align: center;">
-                <li style="display: inline-block; width: calc(10% - 4px)"><a href="#browser_support">Підтримка браузерів</a></li>
+                <li style="display: inline-block; width: calc(10% - 4px)"><a href="#browser_support">Підтримка
+                        браузерів</a></li>
                 <li style="display: inline-block; width: calc(10% - 4px)"><a href="#intro">Вступ</a></li>
                 <li style="display: inline-block; width: calc(10% - 4px)"><a href="#section">&lt;section&gt;</a></li>
                 <li style="display: inline-block; width: calc(10% - 4px)"><a href="#article">&lt;article&gt;</a></li>
@@ -19,11 +22,86 @@
             </ul>
         </nav>
     </header>
-    <main>
-
+    <main style="margin-top: 100px;">
+        <div style="display: inline-block; width: 70%; margin-left: 30%;">
+            <h1>HTML5 Семантичні елементи</h1>
+            <p>Семантичний елемент чітко описує його значення як для браузера, так і
+                для розробника.</p>
+            <p>Приклади не семантичних елементів: <code>&lt;div&gt;</code> і <code>&lt;span&gt;</code> - нічого не
+                говорить
+                про його вміст.</p>
+            <p>Приклади семантичних елементів: <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code> і
+                <code>&lt;article&gt;</code> - чітко
+                визначає його зміст.
+            </p>
+        </div>
+        <article style="display: inline-block; width: 70%; margin-left: 30%;">
+            <section style="margin-top: 50px;">
+                <h2 id="#browser_support">Підтримка браузерів</h2>
+                <img src="../assets/img/browsers.png" alt="Browsers" />
+                <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах</p>
+                <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
+                    елементи".</p>
+                <p>Прочитайте про це в <a
+                        href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#"> підтримці
+                        браузера HTML5</a> .</p>
+            </section>
+            <section style="margin-top: 50px;">
+                <h2 id="#intro">Нові семантичні елементи в HTML5</h2>
+                <p>HTML5 пропонує нові семантичні елементи для визначення різних частин
+                    веб-сторінки:</p>
+                <ul>
+                    <li><code>&lt;section&gt;</code></li>
+                    <li><code>&lt;article&gt;</code></li>
+                    <li><code>&lt;header&gt;</code></li>
+                    <li><code>&lt;footer&gt;</code></li>
+                </ul>
+            </section>
+            <section style="margin-top: 50px;">
+                <h2 id="#section">HTML5 <code>&lt;section&gt;</code> елемент</h2>
+                <p>Елемент <code>&lt;section&gt;</code> визначає розділ в документі.</p>
+                <p>Згідно з документацією W3C HTML5: "розділ представляє собою
+                    тематичну угруповання контенту, зазвичай з заголовком".</p>
+                <p>Домашня сторінка зазвичай може бути розділена на розділи для
+                    ознайомлення, змісту і контактної інформації.</p>
+                <img src="../assets/img/section.png" alt="Section" />
+            </section>
+            <section style="margin-top: 50px;">
+                <h2 id="#article">HTML5 <code>&lt;article&gt;</code> елемент</h2>
+                <p>Елемент <code>&lt;article&gt;</code> визначає незалежний, автономний вміст.</p>
+                <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+                    читати його незалежно від іншої частини веб-сайту.</p>
+                <p>Приклади того, де можна використовувати елемент <code>&lt;article&gt;</code>:</p>
+                <ul>
+                    <li>Повідомлення на форумі</li>
+                    <li>блозі</li>
+                    <li>Газетна стаття</li>
+                </ul>
+                <img src="../assets/img/article.png" alt="Article" />
+            </section>
+            <section style="margin-top: 50px;">
+                <h2 id="#header">HTML5 <code>&lt;header&gt;</code> елемент</h2>
+                <p>Елемент <code>&lt;header&gt;</code> задає заголовок для документа або розділу.</p>
+                <p>Елемент <code>&lt;header&gt;</code> повинен використовуватися в якості контейнера для
+                    вступного змісту.</p>
+                <p>В одному документі може бути кілька елементів <code>&lt;header&gt;</code></p>
+                <p>У наступному прикладі визначається заголовок для статті:</p>
+                <img src="../assets/img/header.png" alt="Header" />
+            </section>
+        </section>
+        <section style="margin-top: 50px;">
+            <h2 id="#footer">HTML5 <code>&lt;footer&gt;</code> елемент</h2>
+            <p>Елемент <code>&lt;footer&gt;</code> вказує нижній колонтитул для документа або розділу</p>
+            <p>Нижній колонтитул зазвичай містить автора документа, інформацію про
+                авторське право, посилання на умови використання, контактні дані і т.д.</p>
+            <p>В одному документі може бути кілька елементів <code>&lt;footer&gt;</code>.</p>
+                <img src="../assets/img/footer.png" alt="Footer" />
+        </section>
+        </article>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
